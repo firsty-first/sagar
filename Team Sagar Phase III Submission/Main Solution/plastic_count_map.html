@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d1546b1004724d52a0276dd8007c77c6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d1546b1004724d52a0276dd8007c77c6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d1546b1004724d52a0276dd8007c77c6 = L.map(
+                "map_d1546b1004724d52a0276dd8007c77c6",
+                {
+                    center: [10.895793333333334, 106.69533166666666],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2ab0193afd98fe033eb7db5554560016 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d1546b1004724d52a0276dd8007c77c6);
+        
+    
+            var marker_8fb10fa54f8628438bce5fc45ed82dd8 = L.marker(
+                [10.895793333333334, 106.69533166666666],
+                {"sticky": true}
+            ).addTo(map_d1546b1004724d52a0276dd8007c77c6);
+        
+    
+            var icon_27529e22024b75ef0b66497211413e69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fb10fa54f8628438bce5fc45ed82dd8.setIcon(icon_27529e22024b75ef0b66497211413e69);
+        
+    
+        var popup_d038257a2a161eba1b319958ec9531b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2403a2713fd62bf790d7166f69f48939 = $(`<div id="html_2403a2713fd62bf790d7166f69f48939" style="width: 100.0%; height: 100.0%;">Image: DJI_0111.jpg Count: 18, Nearest land:('unclassified', 253720851, 'Phường Lái Thiêu, Thành phố Thuận An, Tỉnh Bình Dương, 75207, Việt Nam', (10.89590161925638, 106.69608168916511)) </div>`)[0];
+                popup_d038257a2a161eba1b319958ec9531b7.setContent(html_2403a2713fd62bf790d7166f69f48939);
+            
+        
+
+        marker_8fb10fa54f8628438bce5fc45ed82dd8.bindPopup(popup_d038257a2a161eba1b319958ec9531b7)
+        ;
+
+        
+    
+    
+            var marker_cadfef44e26965213f9ad9639f901bf8 = L.marker(
+                [10.895978333333334, 106.69366666666667],
+                {"sticky": true}
+            ).addTo(map_d1546b1004724d52a0276dd8007c77c6);
+        
+    
+            var icon_520277a7bca7e6880525c540c208eb7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cadfef44e26965213f9ad9639f901bf8.setIcon(icon_520277a7bca7e6880525c540c208eb7d);
+        
+    
+        var popup_43894c7eead3c6be5b8211632fe84ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b73655f3182d86b2a2cb7515fa2e068 = $(`<div id="html_4b73655f3182d86b2a2cb7515fa2e068" style="width: 100.0%; height: 100.0%;">Image: DJI_0533.jpg Count: 32, Nearest land:('residential', 255379694, 'KP.2, P.Thạnh Lộc, Phường Thạnh Lộc, Quận 12, Thành phố Hồ Chí Minh, 75207, Việt Nam', (10.8959981, 106.6933556)) </div>`)[0];
+                popup_43894c7eead3c6be5b8211632fe84ac6.setContent(html_4b73655f3182d86b2a2cb7515fa2e068);
+            
+        
+
+        marker_cadfef44e26965213f9ad9639f901bf8.bindPopup(popup_43894c7eead3c6be5b8211632fe84ac6)
+        ;
+
+        
+    
+    
+            var marker_b320c7d341efd035cb2bb6877bca57e3 = L.marker(
+                [10.895848333333333, 106.69411],
+                {"sticky": true}
+            ).addTo(map_d1546b1004724d52a0276dd8007c77c6);
+        
+    
+            var icon_777019b021eaace96592fbedda4d2a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b320c7d341efd035cb2bb6877bca57e3.setIcon(icon_777019b021eaace96592fbedda4d2a24);
+        
+    
+        var popup_bf2260b443e5eb2aff7dc7aae92ebdf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eef979cda4f0b989b21d30d4c774497 = $(`<div id="html_9eef979cda4f0b989b21d30d4c774497" style="width: 100.0%; height: 100.0%;">Image: DJI_0296.jpg Count: 15, Nearest land:('residential', 255379694, 'KP.2, P.Thạnh Lộc, Phường Thạnh Lộc, Quận 12, Thành phố Hồ Chí Minh, 75207, Việt Nam', (10.8959981, 106.6933556)) </div>`)[0];
+                popup_bf2260b443e5eb2aff7dc7aae92ebdf3.setContent(html_9eef979cda4f0b989b21d30d4c774497);
+            
+        
+
+        marker_b320c7d341efd035cb2bb6877bca57e3.bindPopup(popup_bf2260b443e5eb2aff7dc7aae92ebdf3)
+        ;
+
+        
+    
+    
+            var marker_658c9c61bf65f22b98d86fecf40c348b = L.marker(
+                [10.895888333333334, 106.69538333333334],
+                {"sticky": true}
+            ).addTo(map_d1546b1004724d52a0276dd8007c77c6);
+        
+    
+            var icon_24503d5ae1d0e3d6fdd42b14fb74906f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_658c9c61bf65f22b98d86fecf40c348b.setIcon(icon_24503d5ae1d0e3d6fdd42b14fb74906f);
+        
+    
+        var popup_e7fe99ee1a7c175b9ad2c995206c08db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b0176c09a661cf180ae06ead1e0fc2 = $(`<div id="html_f5b0176c09a661cf180ae06ead1e0fc2" style="width: 100.0%; height: 100.0%;">Image: DJI_0707.jpg Count: 23, Nearest land:('unclassified', 253720851, 'Phường Lái Thiêu, Thành phố Thuận An, Tỉnh Bình Dương, 75207, Việt Nam', (10.895982281277714, 106.69607012520257)) </div>`)[0];
+                popup_e7fe99ee1a7c175b9ad2c995206c08db.setContent(html_f5b0176c09a661cf180ae06ead1e0fc2);
+            
+        
+
+        marker_658c9c61bf65f22b98d86fecf40c348b.bindPopup(popup_e7fe99ee1a7c175b9ad2c995206c08db)
+        ;
+
+        
+    
+</script>
+</html>

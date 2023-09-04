@@ -1,0 +1,14 @@
+folium
+geopy
+numpy
+pandas
+Pillow
+Pillow
+PyQt5
+PyQt5_sip
+scipy
+ultralytics
+PyQtWebEngine
+pyqtspinner
+onnx
+onnxruntime
